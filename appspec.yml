@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
- - source: script/newcode
-   destination: /var/www/html
+ - source: /var/lib/jenkins/workspace/demo-tomcat/webapp/target/
+   destination: /opt/tomcat/webapp
 hooks:
  BeforeInstall:
    - location: script/install_dependencies.sh
