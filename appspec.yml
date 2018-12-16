@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
- - source: /var/lib/jenkins/workspace/demo-tomcat/webapp/target/
+ - source: /
    destination: /opt/tomcat/webapp
 hooks:
  BeforeInstall:
